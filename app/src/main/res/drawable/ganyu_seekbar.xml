@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <rotate
+            android:fromDegrees="90"
+            android:drawable="@drawable/ganyu_goodmorning_v23" />
+    </item>
+
+    <item>
+        <rotate
+            android:fromDegrees="90"
+            android:drawable="@drawable/ganyu_sleeping_v23" />
+    </item>
+</selector>
